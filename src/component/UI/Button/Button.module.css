@@ -1,0 +1,14 @@
+.Button {
+  border: none;
+  background: none;
+  font-size: 2.2rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.Button:hover,
+.Button:focus {
+  outline: none;
+  color: #777;
+}

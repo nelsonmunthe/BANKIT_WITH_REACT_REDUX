@@ -1,0 +1,37 @@
+.Summary {
+  grid-row: 5 / 6;
+  display: flex;
+  align-items: baseline;
+  padding: 0 0.3rem;
+  margin-top: 1rem;
+}
+
+.Summary__label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 0.8rem;
+}
+
+.Summary__value {
+  font-size: 2.2rem;
+  margin-right: 2.5rem;
+}
+
+.Summary__value__in,
+.Summary__value__interest {
+  color: #66c873;
+}
+
+.Summary__value__out {
+  color: #f5465d;
+}
+
+.Btn__sort {
+  margin-left: auto;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
